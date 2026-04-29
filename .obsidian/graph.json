@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "tag: #chromatin  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#concept  ",
+      "color": {
+        "a": 1,
+        "rgb": 5407200
+      }
+    },
+    {
+      "query": "tag:#variable  ",
+      "color": {
+        "a": 1,
+        "rgb": 6938706
+      }
+    },
+    {
+      "query": "tag:#system  ",
+      "color": {
+        "a": 1,
+        "rgb": 14713938
+      }
+    },
+    {
+      "query": "tag:#experiment  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#theory  ",
+      "color": {
+        "a": 1,
+        "rgb": 9130720
+      }
+    },
+    {
+      "query": "tag:#question  ",
+      "color": {
+        "a": 1,
+        "rgb": 14732626
+      }
+    },
+    {
+      "query": "tag:#meta-question  ",
+      "color": {
+        "a": 1,
+        "rgb": 15500219
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.990677083333333,
+  "lineSizeMultiplier": 1.99875,
+  "collapse-forces": true,
+  "centerStrength": 0.5015625,
+  "repelStrength": 9.00347222222222,
+  "linkStrength": 1,
+  "linkDistance": 200,
+  "scale": 1.2600418714674062,
+  "close": false
+}

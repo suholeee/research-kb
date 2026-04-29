@@ -40,6 +40,11 @@ The `examples/` directory contains a curated sample from each major layer:
 
 The sample is intentionally partial. Some example pages link to notes or related pages that are part of the private corpus and are not included in this public release.
 
+## Features
+
+- **Citation assistant**: `scripts/suggest_citations_claude.py` and `scripts/suggest_citations_codex.py` take a draft paragraph from `paragraphs/`, retrieve relevant evidence from the local KB, and generate a citation-suggestion report under `outputs/citation_suggestions/`. The workflow is designed to keep citation support grounded in existing notes, concepts, and other markdown layers rather than relying on external search.
+- **Disagreement extractor**: `scripts/extract_disagreements.py` scans populated disagreement-shaped sections across synthesis layers such as `meta_questions/`, `questions/`, `systems/`, `concepts/`, and `variables/`. It writes structured disagreement questions to `outputs/disagreement_questions.yaml` and a coverage report to `outputs/disagreement_extraction_report.md`, making unresolved conflicts easier to audit and reuse.
+
 ## How To Use This For Your Own KB
 
 Start with `notes/` and make paper-level structure stable before trying to automate anything. Once a note layer is consistent, build `concepts/` and `variables/` to normalize recurring ideas and observables. Use `relationships/` and `systems/` to compress repeated cross-paper structure into reusable synthesis. Only after that should you promote recurring tensions into `questions/`, then into `meta_questions/`, `theory/`, and `experiments/`.
