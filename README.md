@@ -2,6 +2,10 @@
 
 This repository shows the methodology and architecture behind a markdown-first research knowledge base used to synthesize across roughly 200 papers in chromatin and membrane biophysics. The public release includes the core conventions, tooling, and a small representative content sample. The full private corpus, including the complete paper-note library and working synthesis pages, is intentionally not included here.
 
+![Graphical abstract for research-kb](assets/summary_figure_research-kb.png)
+
+*Figure: `research-kb` grounds citation support and synthesis in a scientist's curated paper corpus, then promotes PDFs through markdown layers into questions, theory, and suggested experiments.*
+
 ## Architecture
 
 The KB is organized as a layered markdown system:
